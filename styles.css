@@ -40,6 +40,7 @@ header {
     min-width: 32rem;
     height: 33.4rem;
     text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%)
 }
 header img {
     width: 15rem;
@@ -53,4 +54,44 @@ header img {
     max-width: 90rem;
     height: 21.8rem;
     margin: 3.3rem 0 0;
+}
+.header-titles h1 {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    font-weight: bold;
+}
+
+.header-titles p {
+    margin: 2.5rem 0 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+}
+.header-titles .header-titles__button {
+    position: absolute;
+    left: calc(50% - 130px);
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    /*Shadows*/
+    box-shadow: 0 4px 8px rgb(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+.header-titles span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/down-arrow.svg');
 }
