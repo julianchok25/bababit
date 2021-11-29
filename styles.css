@@ -152,14 +152,17 @@ main {
 }
 
 .currency-table .currency-table__title {
-    margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
+    text-align: left;
+    width: 90%;
+    margin: 0 auto 15px;
 }
 
 .currency-table__container {
+    position: relative;
     width: 90%;
     min-width: 230px;
     max-width: 300px;
@@ -239,4 +242,20 @@ main {
     line-height: 1.5rem;
     color: var(--warm-black);
     font-weight: 300;
+}
+
+.commission-table {
+    margin-top: 30px;
+}
+.commission-table .currency-table__title {
+    color: var(--secondary-blue);
+}
+.commission-table .currency-table__date {
+    background-color: var(--soft-blue);
+}
+.table-go-right {
+    position: absolute;
+    right: -40px;
+    padding: 16px;
+    top: calc(50% - 20px);
 }
