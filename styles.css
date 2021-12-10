@@ -314,15 +314,30 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
-.product-card .product-card__clock {
+.product-card .product-card__image {
     display: inline-block;
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url('./assets/icons/clock.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.product-card .clock {
+    background-image: url('./assets/icons/clock.svg');
+}
+
+.product-card .no-hide {
+    background-image: url('./assets/icons/eye.svg');
+}
+
+.product-card .coin {
+    background-image: url('./assets/icons/dollar-sign.svg');
+}
+
+.product-card .trust-check {
+    background-image: url('./assets/icons/check-circle.svg');
 }
 
 .product-card .product-card__title {
