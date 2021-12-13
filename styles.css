@@ -28,6 +28,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -372,5 +373,110 @@ main {
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
+}
+
+.plans-container {
+    width: 100%;
+    min-width: 320px;
+    margin: 64px 0;
+    text-align: center;
+}
+
+.plans-titles {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.plans-titles h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.plans-titles p {
+    margin: 30px 0 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
+.plans-card {
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(89, 73, 30, 0.16);
+}
+
+.plans-card__recommended {
+    position: absolute;
+    width: 120px;
+    height: 32px;
+    padding: 8px;
+    top: calc(0% - 16px);
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+
+.plans-info__title {
+    padding: 32px 0 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.plans-info__price {
+    position: relative;
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    color: var(--black);
+}
+.plans-info__price span {
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: 300;
+    top: 16px;
+    left: calc(50% - 46px);
+    /*vertical-align: text-top;*/
+}
+.plans-info__saving {
+    font-size: 1.2rem;
+    color: #757575;
+}
+
+.plans-info__call-to-action {
+    width: 150px;
+    height: 48px;
+    margin: 20px 0 0;
+    background-color: var(--off-white);
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.plans-info__call-to-action span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/icons/arrow-right.svg');
+    vertical-align: text-bottom;
 }
 
