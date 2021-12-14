@@ -413,12 +413,17 @@ main {
     height: 250px;
     margin: 0 auto;
     padding: 0 16px;
-    background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgb(89, 73, 30, 0.16);
 }
+.plans-card--white {
+    background-color: var(--just-white);
+}
+.plans-card--black {
+    background-color: var(--warm-black);
+}
 
-.plans-card__recommended {
+.plans-card__header {
     position: absolute;
     width: 120px;
     height: 32px;
@@ -426,9 +431,20 @@ main {
     top: calc(0% - 16px);
     left: calc(50% - 60px);
     font-size: 1.2rem;
-    background-color: var(--bitcoin-orange);
     border-radius: 8px;
     color: var(--just-white);
+}
+
+.plans-card__header--orange {
+    background-color: var(--bitcoin-orange);
+}
+.plans-card__header--blue {
+    background-color: var(--secondary-blue);
+}
+.plans-card__header--unlimited {
+    background-color: var(--grey);
+    color: var(--black);
+    font-weight: bold;
 }
 
 .plans-info__title {
@@ -438,12 +454,19 @@ main {
     line-height: 1.8rem;
     color: var(--black);
 }
+.plans-info__title--white {
+    color: var(--just-white);
+}
+
 .plans-info__price {
     position: relative;
     padding: 5px 0;
     font-size: 5.2rem;
     font-weight: bold;
     color: var(--black);
+}
+.plans-info__price--white {
+    color: var(--just-white);
 }
 .plans-info__price span {
     position: absolute;
@@ -452,6 +475,9 @@ main {
     top: 16px;
     left: calc(50% - 46px);
     /*vertical-align: text-top;*/
+}
+.plans-info__price--white .unlimited {
+    left: calc(50% - 56px);
 }
 .plans-info__saving {
     font-size: 1.2rem;
@@ -470,6 +496,11 @@ main {
     font-weight: bold;
     line-height: 1.8rem;
     color: var(--black);
+}
+
+.plans-info__call-to-action--premium {
+    background-color: var(--warm-black);
+    color: var(--just-white);
 }
 
 .plans-info__call-to-action span {
