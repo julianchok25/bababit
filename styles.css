@@ -72,13 +72,13 @@ header img {
 }
 .header-titles .header-titles__button {
     position: absolute;
-    left: calc(50% - 130px);
-    top: 270px;
     display: block;
     margin-top: 35px;
     padding: 15px;
-    width: 229px;
+    width: 230px;
     height: 48px;
+    left: calc(50% - 115px);
+    top: 270px;
     background-color: var(--off-white);
     /*Shadows*/
     box-shadow: 0 4px 8px rgb(89, 73, 30, 0.16);
@@ -157,7 +157,6 @@ main {
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
-    text-align: left;
     width: 90%;
     margin: 0 auto 15px;
 }
@@ -245,9 +244,6 @@ main {
     font-weight: 300;
 }
 
-.commission-table {
-    margin-top: 30px;
-}
 .commission-table .currency-table__title {
     color: var(--secondary-blue);
 }
@@ -416,10 +412,10 @@ main {
 .plans-slider::-webkit-scrollbar {
     background-color: var(--soft-orange);
     height: 3px;
-  }
-  .plans-slider::-webkit-scrollbar-thumb {
+}
+.plans-slider::-webkit-scrollbar-thumb {
     background-color: var(--bitcoin-orange);
-  }
+}
 
 .plans-card {
     position: relative;
